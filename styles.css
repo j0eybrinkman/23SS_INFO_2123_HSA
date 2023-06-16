@@ -126,3 +126,9 @@ code {
     min-width: 233px;
   }
 }
+
+/* my stuff */
+
+ol > ol {
+  list-style-type: lower-alpha;
+}
