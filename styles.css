@@ -129,6 +129,11 @@ code {
 
 /* my stuff */
 
+img {
+  width: 100%;
+  max-width: 600px;
+}
+
 ol > ol {
   list-style-type: lower-alpha;
 }
