@@ -1,133 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>23SS_INFO_2123_HSA | Home</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>23SS_INFO_2123_HSA | Home</title>
+    <link rel="stylesheet" href="media/css/reset.css">
+    <link rel="stylesheet" href="media/css/layout.css">
+    <link rel="stylesheet" href="media/css/style.css">
 </head>
-  <body>
-    <nav id="navbar">
-      <header><a href="index.html">Intro to SCADA</a></header>
-      <ul>
-        <li>
-          <a class="nav-link" href="index.html#whatisscada">What is SCADA?</a>
-        </li>
-        <li>
-          <a class="nav-link" href="defenitions.html">Defenitions</a>
-        </li>
-        <li>
-          <a class="nav-link" href="resources.html">Resources</a>
-        </li>
-        <li>
-          <a href="discussions.html">Disscussions</a>
-        </li>
-        <li>
-          <a class="nav-link" href="assignments.html">Assignments</a>
-        </li>
-      </ul>
-    </nav>
-    <main id="main-doc">
-      <section class="main-section" id="whatisscada">
-        <header>What is SCADA?</header>
-        <article>
-          <p>
-            Supervisory Control and Data Acquisition <a href="https://en.wikipedia.org/wiki/SCADA" target="_blank">(SCADA)</a> is a control system architecture comprising computers, networked data communications and graphical user interfaces (GUI) for high-level process supervisory management, while also comprising other peripheral devices like programmable logic controllers (PLC) and discrete proportional-integral-derivative (PID) controllers to interface with process plant or machinery. The use of SCADA has been considered also for management and operations of project-driven-process in construction.
-          </p>
-        </article>
-      </section>
-
-      <section class="main-section">
-        <header>SCADA will allow you to:</header>
-        <article>
-          <ol>
-            <li>View important levels real-time and historically</li>
-            <ol>
-              <li>Temperature</li>
-              <li>Humidity</li>
-              <li>Battery level</li>
-              <li>Voltage</li>
-              <li>Fuel level</li>
-            </ol>
-            <li>Detect and correct problems quickly</li>
-            <li>Eliminate bottlenecks and inefficiencies</li>
-            <li>Control larger, more complex processes without an army of experts</li>
-          </ol>
-        </article>
-      </section>
-
-      <section class="main-section">
-        <header>The 4 functions of SCADA</header>
-        <article>
-          <ol>
-            <li>Data acquisition</li>
-            <li>Data communication</li>
-            <ol>
-              <li>Which protocol?</li>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Intro to SCADA</h1>
+            <nav>
                 <ul>
-                  <li>Modbus</li>
-                  <li>OPC</li>
-                  <li>OPC UA</li>
-                  <li>MQTT</li>
-                  <li>HTTP</li>
-                  <li>HTTPS</li>
-                  <li>FTP</li>
-                  <li>SSH</li>
-                  <li>...</li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Assignments</a></li>
+                    <li><a href="#">Resources</a></li>
                 </ul>
-              <li>Which transport?</li>
-              <ul>
-                <li>Serial</li>
-                <li>Ethernet</li>
-                <li>Wireless</li>
-                <li>...</li>    
-              </ul>
-            </ol>
-            <li>Data presentation</li>
-            <li>Control</li>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <h2>Purdue Model</h2>
+                <div>
+                    <img src="media/image/purdue-model.png" alt="">
+                </div>
+            </article>
+        </main>
+        <footer>
             <ul>
-              <li>Manual</li>
-              <li>Automatic</li>
-              <li>...</li>
+                <li><a href="/README.md">README</a></li>
             </ul>
-          </ol>
-        </article>
-      </section>
-
-      <section class="main-section">
-        <header>The 4 levels of SCADA</header>
-        <article>
-          <ol>
-            <li>Field level</li>
-            <li>Control level</li>
-            <li>Supervisory level</li>
-            <li>Enterprise level</li>
-          </ol>
-          <div>
-            <a href="./media/purdue_model.jpg"><img src="./media/purdue_model.jpg" alt=""></a>
-          </div>
-          <div>
-            <a href="./media/reccomended_secure_network_architecture.png"><img src="./media/reccomended_secure_network_architecture.png" alt=""></a>
-          </div>
-          <div>
-            <a href="./media/etap-rt-system-architecture.jpg"><img src="./media/etap-rt-system-architecture.jpg" alt=""></a>
-          </div>
-
-
-        </article>
-      </section>
-
-      <section class="main-section" id="Reference">
-        <header>Reference</header>
-        <article>
-          <ul>
-            <li>
-                All the documentation in this page is taken from
-                <a href="#" target="_blank">#</a>
-              </li>
-          </ul>
-        </article>
-      </section>
-    </main>
-  </body>
+        </footer>
+    </div>
+</body>
 </html>
