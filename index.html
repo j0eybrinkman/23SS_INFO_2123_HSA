@@ -3,35 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>23SS_INFO_2123_HSA | Home</title>
-    <link rel="stylesheet" href="media/css/reset.css">
+    <title>Intro to SCADA | Home</title>
     <link rel="stylesheet" href="media/css/layout.css">
-    <link rel="stylesheet" href="media/css/style.css">
+    <link rel="stylesheet" href="media/css/reset.css">
+    <link rel="stylesheet" href="media/css/styles.css">
 </head>
 <body>
     <div class="wrapper">
-        <header>
+        <header class="header">
             <h1>Intro to SCADA</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Assignments</a></li>
-                    <li><a href="#">Resources</a></li>
-                </ul>
-            </nav>
         </header>
-        <main>
-            <article>
-                <h2>Purdue Model</h2>
-                <div>
-                    <img src="media/image/purdue-model.png" alt="">
-                </div>
-            </article>
-        </main>
-        <footer>
+        <nav class="nav">
             <ul>
-                <li><a href="/README.md">README</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="assignments.html">Assignments</a></li>
+                <li><a href="resources.html">Resources</a></li>
             </ul>
+        </nav>
+        <main class="main">
+            <section>
+                <h2 class="none">Home Page</h2>
+                <article>
+                    <h2>What is SCADA?</h2>
+                    <p>
+                        Supervisory Control and Data Acquisition (SCADA) is a control system architecture comprising computers, networked data communications and graphical user interfaces (GUI) for high-level process supervisory management, while also comprising other peripheral devices like programmable logic controllers (PLC) and discrete proportional-integral-derivative (PID) controllers to interface with process plant or machinery. The use of SCADA has been considered also for management and operations of project-driven-process in construction.
+                    </p>
+                </article>
+                <article>
+                    <h2>The Purdue Model</h2>
+                    <figure>
+                        <img src="media/img/purdue-model.png" alt="">
+                        <figcaption class="none">The Purdue Model</figcaption>
+                    </figure>
+                </article>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>This site holds no copyright <a href="#">READ ME</a></p>
         </footer>
     </div>
 </body>
