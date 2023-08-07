@@ -9,23 +9,5 @@
     grid-column: col-start / span 12;
 }
 
-/* two column layout */
-@media screen and (min-width: 600px) {
-    .wrapper {
-        max-width: 1200px;
-    }
-    .nav {
-        grid-column: col-start / span 1;
-        grid-row: 2;
-    }
-    .main {
-        grid-column: col-start 2 / span 11;
-    }
-
-    .nav ul {
-        flex-direction: column;
-    }
-
-}
 
 
